@@ -1,6 +1,6 @@
 
 
-public class Agenda {
+public class Agendeeeeee {
     private ArrayList<Contato> contatos;
 
     public Agenda() {
@@ -40,3 +40,4 @@ public class Agenda {
     }
 
 }
+
