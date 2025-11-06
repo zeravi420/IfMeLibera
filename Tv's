@@ -1,0 +1,31 @@
+public class TV {
+    public boolean ligada = false;
+    public int volume = 10;
+    public int canal = 1; 
+
+    public void ligarTV() {
+        ligada = true;
+        System.out.println("TV LIGADA");
+    }
+
+    public void desligarTV() {
+        ligada = false;
+        System.out.println("TV DESLIGADA ");
+    }
+
+    public int getVolume() {
+        return volume;
+    }
+
+    public void setVolume(int volume) {
+        this.volume = volume;
+    }
+
+    public int getCanal() {
+        return canal;
+    }
+
+    public void setCanal(int canal) {
+        this.canal = canal;
+    }
+}
